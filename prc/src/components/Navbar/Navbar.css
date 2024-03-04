@@ -1,0 +1,112 @@
+.navbar{
+  position: relative;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+.dropdown-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dropbtn{
+    color: #FFFFFF;
+    margin-right: 40px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .links {
+    color: #FFFFFF;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: darkgoldenrod;
+  }
+  
+  .dropbtn:hover{
+    .down{
+      transition: 0.9s;
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+    }
+  }
+
+
+
+
+  .signup-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    background: #4C35DB;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-right: 10px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color: black;
+    border: 1px solid #FFFFFF;
+    margin-right: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: relative;
+    left: 8px;
+    top: -2px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    /* color: white; */
+  }
